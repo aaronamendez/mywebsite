@@ -109,7 +109,7 @@ section {
 	color: white;
 }
 body {
-	font-family: "Varela", sans-serif;
+	font-family: "Viga", sans-serif;
 	font-size: 16px;
 	background-color: black;
 }
@@ -118,27 +118,39 @@ body {
 /* NAVBAR SECTIONAL COMPONENT */
 
 nav {
+	margin-top: 1.5rem;
 	display: flex;
 	justify-content: space-around;
+	font-family: "Varela", sans-serif;
 }
 
 nav a {
 	text-decoration: none;
+	font-size: 2.6rem;
 }
 
 /* PROFILE SECTIONAL COMPONENT */
+
+.profile-header {
+	font-family: "Press Start 2P", cursive;
+	margin-top: 6rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.profile-header h1 {
+	font-size: 2.3rem;
+}
+
+.profile-header span {
+	font-size: 2.3rem;
+}
+
 .profile-section {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-}
-
-/* PROFILE HEADER */
-.profile-header {
-	margin-top: 6rem;
-	text-align: center;
-	margin-bottom: 50px;
 }
 
 .profile-pic {
@@ -188,7 +200,6 @@ nav a {
 /* GLITCH EFFECT */
 .glitch {
 	color: white;
-	font-size: 50px;
 	font-weight: bold;
 	position: relative;
 	/* width: 400px; */
