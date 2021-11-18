@@ -10,10 +10,12 @@
 			href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
-
+		<link
+			href="https://fonts.googleapis.com/css2?family=Viga&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./styles/effects.css" />
+		<link rel="stylesheet" href="./styles/mobile.css">
 		<link rel="stylesheet" href="./styles/main.css" />
 	</head>
 	<body>
@@ -55,15 +57,17 @@
 			</nav>
 		</header>
 		<section>
-			<div class="profile-header">
+			<div class="profile-header floating">
 				<h1>
 					Hello, <span class="glitch" data-text="World">World</span>
 					<br />
 					I'm Aaron.
 				</h2>
 			</div>
-			<div class="img-segment">
-				<div>
+		</section>
+		<section>
+			<div class="profile-segment">
+				<div class="profile-img-segment">
 					<img
 						class="profile-pic"
 						alt="Aaron."
@@ -71,7 +75,7 @@
 					/>
 				</div>
 				<div class="bio-segment">
-					<h2>Who am I?</h2>
+					<h2>&lt;AboutMe/&gt;</Who></h2>
 					<p>
 						I'm a Software Developer who loves to build cool things! There's
 						honestly no greater feeling than providing smart solutions to
@@ -94,5 +98,8 @@
 				</article>
 			</div>
 		</section>
+		<footer>
+			<div>Footer</div>
+		</footer>
 	</body>
 </html>

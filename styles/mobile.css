@@ -1,0 +1,20 @@
+/* MEDIA QUERIES  */
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 25px;
+	}
+
+	p {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.glitch {
+		font-size: rem;
+	}
+
+	/* .nav-link {
+		color: black;
+	} */
+}

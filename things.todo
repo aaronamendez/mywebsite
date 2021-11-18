@@ -3,11 +3,12 @@
     ✔ Fix the glitch effect (margin/padding error) @done(21-11-17 13:03)
 
 - Profile section
-    ☐ Display image and About context side by side. @started(21-11-17 13:08)
-    ☐ Fix Margin Errors
-
+    ✔ Display image and About context side by side. @started(21-11-17 13:08) @done(21-11-17 18:55) @lasted(5h47m8s)
+    ✔ Fix Margin Errors @done(21-11-17 18:55)
+    ✔ Image not fully centered, small issue though. @low @started(21-11-17 20:15) @done(21-11-17 20:15) @lasted(15s)
 - Things I'm into section
-    ☐ 
+    ☐ Add more things @started(21-11-17 20:15)
 
 
 - Mobile Responsiveness (EVENTUAL)
+    ☐ Make the website Mobile Responsive

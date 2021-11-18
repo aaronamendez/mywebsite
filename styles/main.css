@@ -110,7 +110,7 @@ section {
 }
 body {
 	font-family: "Viga", sans-serif;
-	font-size: 16px;
+	font-size: 1rem;
 	background-color: black;
 }
 /* END OF RESET AND DEFAULT ADJUSTMENTS TO GLOBAL */
@@ -121,7 +121,7 @@ nav {
 	margin-top: 1.5rem;
 	display: flex;
 	justify-content: space-around;
-	font-family: "Varela", sans-serif;
+	font-family: "Viga", sans-serif;
 }
 
 nav a {
@@ -129,11 +129,11 @@ nav a {
 	font-size: 2.6rem;
 }
 
-/* PROFILE SECTIONAL COMPONENT */
+/* PROFILE HEADER COMPONENT */
 
 .profile-header {
 	font-family: "Press Start 2P", cursive;
-	margin-top: 6rem;
+	margin-top: 7rem;
 	text-align: center;
 	margin-bottom: 2rem;
 }
@@ -142,26 +142,28 @@ nav a {
 	font-size: 2.3rem;
 }
 
-.profile-header span {
-	font-size: 2.3rem;
-}
-
-.img-segment {
+.profile-segment {
+	margin-top: 7rem;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
+}
+
+.profile-img-segment {
+	display: flex;
+	justify-content: center;
 }
 
 .profile-pic {
-	max-width: 100%;
-	margin: auto;
-	border-radius: 50%;
+	max-width: 80%;
+	border-radius: 20%;
 }
 
 .bio-segment {
 	text-align: center;
-	max-width: 45%;
+	max-width: 35%;
+	margin-top: 1.5rem;
 }
 
 .bio-segment h2 {
@@ -172,7 +174,7 @@ nav a {
 	font-size: 1.7rem;
 }
 
-/* End of PROFILE SECTIONAL COMPONENT */
+/* END OF PROFILE SECTIONAL COMPONENT */
 
 /* BITCOIN GIF */
 .bitcoin-gif {
@@ -191,7 +193,7 @@ nav a {
 
 /* CRYPTO SECTIONAL COMPONENT */
 .crypto-section {
-	color: white;
+	margin-top: 12rem;
 }
 
 .crypto-header {
@@ -200,193 +202,4 @@ nav a {
 
 .crypto-paragraph {
 	text-align: center;
-}
-
-/* GLITCH IMAGE EFFECT */
-
-/* END OF GLITCH IMAGE */
-
-/* GLITCH WORDS EFFECT */
-.glitch {
-	color: white;
-	font-weight: bold;
-	position: relative;
-	/* width: 400px; */
-	margin: 0 auto;
-}
-
-@keyframes noise-anim {
-	0% {
-		clip-path: inset(89% 0 1% 0);
-	}
-	5% {
-		clip-path: inset(93% 0 1% 0);
-	}
-	10% {
-		clip-path: inset(70% 0 14% 0);
-	}
-	15% {
-		clip-path: inset(76% 0 11% 0);
-	}
-	20% {
-		clip-path: inset(9% 0 20% 0);
-	}
-	25% {
-		clip-path: inset(50% 0 38% 0);
-	}
-	30% {
-		clip-path: inset(56% 0 7% 0);
-	}
-	35% {
-		clip-path: inset(64% 0 15% 0);
-	}
-	40% {
-		clip-path: inset(3% 0 26% 0);
-	}
-	45% {
-		clip-path: inset(91% 0 6% 0);
-	}
-	50% {
-		clip-path: inset(79% 0 22% 0);
-	}
-	55% {
-		clip-path: inset(76% 0 2% 0);
-	}
-	60% {
-		clip-path: inset(75% 0 26% 0);
-	}
-	65% {
-		clip-path: inset(12% 0 65% 0);
-	}
-	70% {
-		clip-path: inset(98% 0 1% 0);
-	}
-	75% {
-		clip-path: inset(90% 0 8% 0);
-	}
-	80% {
-		clip-path: inset(18% 0 33% 0);
-	}
-	85% {
-		clip-path: inset(15% 0 53% 0);
-	}
-	90% {
-		clip-path: inset(10% 0 42% 0);
-	}
-	95% {
-		clip-path: inset(90% 0 3% 0);
-	}
-	100% {
-		clip-path: inset(58% 0 23% 0);
-	}
-}
-.glitch::after {
-	content: attr(data-text);
-	position: absolute;
-	left: 2px;
-	text-shadow: -1px 0 red;
-	top: 0;
-	color: white;
-	background: black;
-	overflow: hidden;
-	animation: noise-anim 2s infinite linear alternate-reverse;
-}
-@keyframes noise-anim-2 {
-	0% {
-		clip-path: inset(61% 0 33% 0);
-	}
-	5% {
-		clip-path: inset(53% 0 29% 0);
-	}
-	10% {
-		clip-path: inset(13% 0 20% 0);
-	}
-	15% {
-		clip-path: inset(39% 0 57% 0);
-	}
-	20% {
-		clip-path: inset(45% 0 12% 0);
-	}
-	25% {
-		clip-path: inset(57% 0 12% 0);
-	}
-	30% {
-		clip-path: inset(71% 0 14% 0);
-	}
-	35% {
-		clip-path: inset(30% 0 7% 0);
-	}
-	40% {
-		clip-path: inset(4% 0 52% 0);
-	}
-	45% {
-		clip-path: inset(23% 0 32% 0);
-	}
-	50% {
-		clip-path: inset(58% 0 17% 0);
-	}
-	55% {
-		clip-path: inset(75% 0 14% 0);
-	}
-	60% {
-		clip-path: inset(72% 0 19% 0);
-	}
-	65% {
-		clip-path: inset(28% 0 66% 0);
-	}
-	70% {
-		clip-path: inset(57% 0 10% 0);
-	}
-	75% {
-		clip-path: inset(84% 0 4% 0);
-	}
-	80% {
-		clip-path: inset(55% 0 7% 0);
-	}
-	85% {
-		clip-path: inset(71% 0 19% 0);
-	}
-	90% {
-		clip-path: inset(95% 0 4% 0);
-	}
-	95% {
-		clip-path: inset(51% 0 49% 0);
-	}
-	100% {
-		clip-path: inset(28% 0 70% 0);
-	}
-}
-.glitch::before {
-	content: attr(data-text);
-	position: absolute;
-	left: -2px;
-	text-shadow: 1px 0 blue;
-	top: 0;
-	color: white;
-	background: black;
-	overflow: hidden;
-	animation: noise-anim-2 15s infinite linear alternate-reverse;
-}
-
-/* END OF GLITCH EFFECT */
-
-/* MEDIA QUERIES  */
-@media only screen and (max-width: 600px) {
-	h1 {
-		font-size: 25px;
-	}
-
-	p {
-		font-size: 20px;
-	}
-}
-
-@media only screen and (max-width: 600px) {
-	.glitch {
-		font-size: rem;
-	}
-
-	/* .nav-link {
-		color: black;
-	} */
 }
