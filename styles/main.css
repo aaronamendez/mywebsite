@@ -105,11 +105,11 @@ section {
 	display: block;
 }
 * {
-	border: 1px solid grey;
+	/* border: 1px solid grey; */
 	color: white;
 }
 body {
-	font-family: "Viga", sans-serif;
+	font-family: 'Viga', sans-serif;
 	font-size: 1rem;
 	background-color: black;
 }
@@ -117,14 +117,14 @@ body {
 
 /* NAVBAR SECTIONAL COMPONENT */
 
-nav {
-	margin-top: 1.5rem;
+header nav {
+	padding-top: 1.5rem;
 	display: flex;
 	justify-content: space-around;
-	font-family: "Viga", sans-serif;
+	font-family: 'Viga', sans-serif;
 }
 
-nav a {
+header nav a {
 	text-decoration: none;
 	font-size: 2.6rem;
 }
@@ -132,7 +132,7 @@ nav a {
 /* PROFILE HEADER COMPONENT */
 
 .profile-header {
-	font-family: "Press Start 2P", cursive;
+	font-family: 'Press Start 2P', cursive;
 	margin-top: 7rem;
 	text-align: center;
 	margin-bottom: 2rem;
@@ -183,7 +183,7 @@ nav a {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	/* width: 80%; */
 }
 
 /* BITCOIN COLOR */
@@ -194,12 +194,56 @@ nav a {
 /* CRYPTO SECTIONAL COMPONENT */
 .crypto-section {
 	margin-top: 12rem;
+	margin-bottom: 20em;
 }
+
+/* .crypto-article {
+	
+} */
 
 .crypto-header {
 	text-align: center;
+	font-size: 3em;
+	margin-bottom: 2em;
+}
+
+.three-things {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.three-things div {
+	width: 30%;
 }
 
 .crypto-paragraph {
 	text-align: center;
+}
+
+/* FOOTER */
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: #1f1e1d;
+	margin-top: 3em;
+}
+
+footer h3 {
+	font-size: 1.4em;
+	text-align: center;
+	padding: 2em;
+}
+
+footer nav {
+	padding: 2em;
+}
+
+footer nav a {
+	text-decoration: none;
+	margin: 1em;
+}
+
+footer img {
+	width: 3em;
 }
