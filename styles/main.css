@@ -106,14 +106,34 @@ section {
 }
 * {
 	/* border: 1px solid grey; */
-	color: white;
+	color: #fff;
 }
 body {
 	font-family: 'Viga', sans-serif;
 	font-size: 1rem;
-	background-color: black;
+	background-color: #000;
 }
 /* END OF RESET AND DEFAULT ADJUSTMENTS TO GLOBAL */
+
+/* DEFINED GLOBALS */
+h1 {
+	font-size: 2.3rem;
+}
+
+h2 {
+	text-align: center;
+	font-size: 3em;
+}
+
+section {
+	margin-top: 3em;
+	margin-bottom: 2em;
+}
+
+p {
+	text-align: center;
+	font-size: 1.7rem;
+}
 
 /* NAVBAR SECTIONAL COMPONENT */
 
@@ -142,11 +162,7 @@ header nav a:hover {
 	margin-bottom: 2rem;
 }
 
-.profile-header h1 {
-	font-size: 2.3rem;
-}
-
-.profile-segment {
+.profile {
 	margin-top: 7rem;
 	display: flex;
 	flex-direction: row;
@@ -154,7 +170,7 @@ header nav a:hover {
 	justify-content: center;
 }
 
-.profile-img-segment {
+.profile-img-divider {
 	display: flex;
 	justify-content: center;
 }
@@ -164,23 +180,13 @@ header nav a:hover {
 	border-radius: 50%;
 }
 
-.bio-segment {
+.bio-divider {
 	text-align: center;
 	max-width: 35%;
 	margin-top: 1.5rem;
 }
 
-.bio-segment h2 {
-	font-size: 3rem;
-}
-
-.bio-segment p {
-	font-size: 1.7rem;
-}
-
-/* END OF PROFILE SECTIONAL COMPONENT */
-
-/* BITCOIN GIF */
+/* things SECTIONAL COMPONENT */
 .bitcoin-gif {
 	max-width: 220px;
 	border-radius: 50%;
@@ -190,39 +196,18 @@ header nav a:hover {
 	/* width: 80%; */
 }
 
-/* BITCOIN COLOR */
-.bitcoin-color {
+.bitcoin {
 	color: orange;
 }
 
-/* CRYPTO SECTIONAL COMPONENT */
-.crypto-section {
-	margin-top: 12rem;
-	margin-bottom: 20em;
-}
-
-/* .crypto-article {
-	
-} */
-
-.crypto-header {
-	text-align: center;
-	font-size: 3em;
-	margin-bottom: 2em;
-}
-
-.three-things {
+article .container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
-.three-things div {
+article .container div {
 	width: 30%;
-}
-
-.crypto-paragraph {
-	text-align: center;
 }
 
 /* FOOTER */
@@ -230,7 +215,7 @@ footer {
 	width: 100%;
 	text-align: center;
 	background-color: #1f1e1d;
-	margin-top: 3em;
+	margin-top: 5em;
 }
 
 footer h3 {
