@@ -83,6 +83,10 @@
 		--thumbBG: orange;
 	}
 
+	footer {
+		background-color: rgb(38, 38, 38);
+	}
+
 	footer img {
 		width: 1.5em;
 	}
