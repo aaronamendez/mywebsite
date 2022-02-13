@@ -1,16 +1,61 @@
+/* GLOBALES */
+/* .mobile-vanish makes elements disappear for mobile */
+
 /* MEDIA QUERIES  */
 @media only screen and (max-width: 500px) {
+	/* Globals */
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.7em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	.mobile-vanish {
+		display: none;
+	}
+
+	/* Views */
 	header nav a {
 		font-size: 1.5em;
 	}
-}
 
-/* @media only screen and (max-width: 600px) {
-	.glitch {
-		font-size: rem;
+	.profile-header {
+		margin-top: 3em;
 	}
 
-	/* .nav-link {
-		color: black;
-	} */
-/* }
+	.profile {
+		margin-top: 2em;
+	}
+
+	.profile .profile-pic {
+		width: 50%;
+	}
+
+	.bio-divider {
+		max-width: 70%;
+	}
+
+	article h2 {
+		margin-bottom: 1em;
+	}
+
+	article .container div {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 390px) {
+	header nav a {
+		font-size: 1em;
+	}
+
+	h1 {
+		font-size: 1.6em;
+	}
+}
