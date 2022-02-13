@@ -21,7 +21,7 @@
 
 /* GLITCH WORDS EFFECT */
 .glitch {
-	color: white;
+	color: orange;
 	font-weight: bold;
 	position: relative;
 	/* width: 400px; */
@@ -99,7 +99,7 @@
 	left: 2px;
 	text-shadow: -1px 0 red;
 	top: 0;
-	color: white;
+	color: orange;
 	background: black;
 	overflow: hidden;
 	animation: noise-anim 2s infinite linear alternate-reverse;
@@ -173,9 +173,9 @@
 	content: attr(data-text);
 	position: absolute;
 	left: -2px;
-	text-shadow: 1px 0 blue;
+	text-shadow: 1px 0 orange;
 	top: 0;
-	color: white;
+	color: orange;
 	background: black;
 	overflow: hidden;
 	animation: noise-anim-2 15s infinite linear alternate-reverse;
