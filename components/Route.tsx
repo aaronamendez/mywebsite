@@ -4,7 +4,7 @@ import { CAREER } from "@/lib/content";
 const PATH = "M880 190 C 760 60, 640 60, 560 140 S 300 250, 130 130";
 
 const STAGES = [
-	{ cls: "n-ny", tag: "STAGE 1", place: "New York", note: "Origin · Simulate, Clover Health, Korr" },
+	{ cls: "n-ny", tag: "STAGE 1", place: "New York", note: "Origin · Simulate, Clover, Korr" },
 	{ cls: "n-mi", tag: "STAGE 2", place: "Ann Arbor, MI", note: "Built Digitol with operators on the ground. Now live in MI facilities." },
 	{ cls: "n-ut current", tag: "STAGE 3 · YOU ARE HERE", place: "Utah", note: "Current base · evvAI, Ultron, Keep Very Still" },
 ];
