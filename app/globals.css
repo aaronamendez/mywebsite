@@ -16,10 +16,10 @@
 	--gold: #ffc547;
 	--green: #7dff9b;
 	--red: #ff5468;
-	--display: "Chakra Petch", system-ui, sans-serif;
-	--body: "Inter", system-ui, -apple-system, sans-serif;
-	--mono: "JetBrains Mono", ui-monospace, monospace;
-	--pix: "Press Start 2P", monospace;
+	--display: var(--font-display), system-ui, sans-serif;
+	--body: var(--font-body), system-ui, -apple-system, sans-serif;
+	--mono: var(--font-mono), ui-monospace, monospace;
+	--pix: var(--font-pix), monospace;
 	--radius: 14px;
 	--wrap: 1180px;
 	color-scheme: dark;
@@ -1834,7 +1834,10 @@ body.god .name {
 		align-items: center;
 	}
 	.visitor {
-		left: 16px;
+		/* covers content at this width; toasts still show the tally */
+		display: none;
+	}
+	.toasts {
 		bottom: 16px;
 	}
 }
