@@ -1422,6 +1422,15 @@ a {
 	font-family: var(--display);
 	font-size: 19px;
 }
+.log b a {
+	text-decoration: none;
+	border-bottom: 1px solid rgba(92, 242, 255, 0.35);
+	transition: color 0.2s, border-color 0.2s;
+}
+.log b a:hover {
+	color: var(--cyan);
+	border-color: var(--cyan);
+}
 .log p {
 	margin: 4px 0 0;
 	font-size: 15px;

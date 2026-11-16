@@ -35,10 +35,10 @@ export const STATS: { count: number; suffix?: string; label: string }[] = [
 	{ count: 80, suffix: "+", label: "devs led in study group" },
 ];
 
-export const CAREER: { when: string; org: string; role: string; desc: string }[] = [
-	{ when: "2024 →", org: "Digitol Inc", role: "CTO & Co-Founder", desc: "Built assisted living software end to end, raised funding and led the team. Moved to Michigan for it. Now in production across a handful of facilities there." },
+export const CAREER: { when: string; org: string; href?: string; role: string; desc: string }[] = [
+	{ when: "2024 →", org: "Digitol Inc", href: "https://digitol.io", role: "CTO & Co-Founder", desc: "Built assisted living software end to end, raised funding and led the team. Moved to Michigan for it. Now in production across a handful of facilities there." },
 	{ when: "2023–24", org: "Korr", role: "Software Engineer", desc: "InsurTech, backend-heavy. Modularized the product for stability and scale." },
-	{ when: "2023", org: "Clover (Fiserv)", role: "Software Engineer", desc: "Fiserv's point-of-sale platform for small businesses. On the Web Infrastructure Core Foundation team, shipped internal tooling and infrastructure used by many engineering teams." },
+	{ when: "2023", org: "Clover (Fiserv)", href: "https://www.clover.com/", role: "Software Engineer", desc: "Fiserv's point-of-sale platform for small businesses. On the Web Infrastructure Core Foundation team, shipped internal tooling and infrastructure used by many engineering teams." },
 	{ when: "2021–22", org: "BloomTech", role: "Full-stack web dev", desc: "Led an 80+ student study group, hosted weekly tech talks. Shipped underdogdevs.dev and twidah.com." },
 	{ when: "2019–21", org: "Simulate (Series B)", role: "Office Manager", desc: "Reported to the CEO while the Nuggs brand scaled. Cut ops costs, helped hire key roles." },
 ];

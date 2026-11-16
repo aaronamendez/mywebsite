@@ -44,7 +44,16 @@ export function Route() {
 						<li key={c.org}>
 							<span className="log-when mono">{c.when}</span>
 							<div>
-								<b>{c.org}</b> · {c.role}
+								<b>
+									{c.href ? (
+										<a href={c.href} target="_blank" rel="noopener">
+											{c.org}
+										</a>
+									) : (
+										c.org
+									)}
+								</b>{" "}
+								· {c.role}
 								<p>{c.desc}</p>
 							</div>
 						</li>
